@@ -8,8 +8,6 @@ Por Juan David Alonso, Julián Pinzón y Rodrigo Vera
 
 #### Parametros de DH
 
-#### Configuración Dynamixel
-
 #### Codigo de solución
 
 ##### Matlab
