@@ -13,6 +13,8 @@ Por Juan David Alonso, Julián Pinzón y Rodrigo Rodríguez
 ## Codigo de solución
 
 ## Interfaz HM
+Finalmente, con el codigo anterior se tiene como resultado la siguiente interfaz, que permite variar, en tiempo real entre las cinco posicines solicitadas mientras a su vez muestra el arreglo de angulos en los que se encuentran los 5 motores.
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/Interfaz.jpeg)
 
 ## Comparación de Poses con graficas digitales
 
