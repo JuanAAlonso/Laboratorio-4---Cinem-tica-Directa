@@ -20,9 +20,13 @@ Finalmente, con el codigo anterior se tiene como resultado la siguiente interfaz
 
 ### Comparación de Poses con gráficas digitales
 
-| Pose número 1 | Gráficas digitales |
+| Poses | Gráficas digitales |
 |---|---|
-| ![Pose número 1](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/Pose1.JPG) | ![Gráficas digitales](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/RealPose1.jpg) |
+| ![Pose número 1 o Home](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/Pose1.JPG) | ![Gráficas digitales](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/RealPose1.jpg) |
+| ![Pose número 2](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/Pose2.JPG) | ![Gráficas digitales](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/RealPose2.jpg) |
+| ![Pose número 3](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/Pose3.JPG) | ![Gráficas digitales](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/RealPose3.jpg) |
+| ![Pose número 4](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/Pose4.JPG) | ![Gráficas digitales](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/RealPose4.jpg) |
+| ![Pose número 5](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/Pose5.JPG) | ![Gráficas digitales](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/RealPose5.jpg) |
 
 ### Video de funcionamiento
 
