@@ -20,6 +20,11 @@ Finalmente, con el codigo anterior se tiene como resultado la siguiente interfaz
 
 ### Comparación de Poses con graficas digitales
 
+Pose número 1 vs graficas digitales
+
+https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/Pose1.JPG
+https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/RealPose1.jpg
+
 ### Video de funcionamiento
 
 >https://drive.google.com/file/d/1nCXHmTs9sp2uDxF6b5eKDhNIj0-YeXRV/view?usp=sharing
