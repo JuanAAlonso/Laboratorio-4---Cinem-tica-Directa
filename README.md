@@ -11,7 +11,25 @@ Por Juan David Alonso, Julián Pinzón y Rodrigo Vera
 #### Codigo de solución
 
 ##### Matlab
+A continuacion se explica paso a paso l codigo de Mathlab utilizado para el laboratorio:
 
+1. **Inicialización del entorno**: Se eliminan todas las figuras y variables existentes en el entorno de MATLAB.
+
+2. **Definición de los valores de Denavit-Hartenberg (DH)**: Esta parte del código no está escrita y parece ser una sección del código que falta o se debe completar con los parámetros DH del manipulador.
+
+3. **Cálculo de las matrices de transformación homogénea**: Utilizando los valores DH y las variables simbólicas para los ángulos de las articulaciones (Theta1, Theta2, Theta3, Theta4), se calculan las matrices de transformación homogénea T01, T12, T23, T34 y T04 que representan las transformaciones de cada articulación y la transformación completa del sistema.
+
+4. **Creación de matrices de rotación para diferentes posiciones**: Se definen diferentes configuraciones (R1, R2, R3, R4, R5) que representan diferentes posiciones de las articulaciones del robot. Luego, se calculan las matrices de transformación homogénea correspondientes a estas posiciones.
+
+5. **Cálculo de las posiciones de los extremos de las herramientas**: Se extraen las posiciones cartesianas y los ángulos de Euler de las matrices de transformación homogénea para cada configuración del robot.
+
+6. **Definición del enlace serial**: Se define el enlace del robot utilizando la función `Link` de la biblioteca Robotics Toolbox. Cada enlace se define como una articulación de revolución con sus respectivos parámetros DH y límites articulares.
+
+7. **Configuración del robot y visualización**: Se configura el robot utilizando la función `SerialLink` y se le asigna un nombre. Luego, se visualiza la configuración inicial del robot en una nueva figura.
+
+8. **Visualización de la posición de inicio**: Se visualiza la posición inicial del robot y se muestra un sistema de coordenadas de referencia en la misma figura.
+
+En resumen, este código de MATLAB define un manipulador robótico de 4 grados de libertad, calcula diferentes configuraciones para las articulaciones del robot y visualiza estas configuraciones en una figura tridimensional.
 ##### Python
 A continuacion se explica el funcionamiento del codigo de Python Utilizado:
 
