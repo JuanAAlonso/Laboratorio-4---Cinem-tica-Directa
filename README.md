@@ -28,12 +28,41 @@ f3 = [0 sind(alpha) cosd(alpha) d];
 f4 = [0 0 0 1];
 MTH = [f1;f2;f3;f4];
 end
+```
+Una vez calculadas cada una de las transformaciones sucesivas de la articulación 0 hasta la número 4 de manera consecutiva, fue posible realizar el calculo del mdoelo cinematico directo que dio como resultado la siguiente matriz:
 
-1. **Inicialización del entorno**: Se eliminan todas las figuras y variables existentes en el entorno de MATLAB.
-
-2. **Definición de los valores de Denavit-Hartenberg (DH)**: Esta parte del código no está escrita y parece ser una sección del código que falta o se debe completar con los parámetros DH del manipulador.
-
-3. **Cálculo de las matrices de transformación homogénea**: Utilizando los valores DH y las variables simbólicas para los ángulos de las articulaciones (Theta1, Theta2, Theta3, Theta4), se calculan las matrices de transformación homogénea T01, T12, T23, T34 y T04 que representan las transformaciones de cada articulación y la transformación completa del sistema.
+```latex
+$\begin{array}{l}
+\left(\begin{array}{cccc}
+\cos \left(\Theta_4 \right)\,\sigma_3 -\sin \left(\Theta_4 \right)\,\sigma_4  & \sin \left(\Theta_1 \right) & \cos \left(\Theta_4 \right)\,\sigma_4 +\sin \left(\Theta_4 \right)\,\sigma_3  & \frac{21\,\cos \left(\Theta_1 \right)\,\sigma_7 }{2}+\frac{13\,\cos \left(\Theta_4 \right)\,\sigma_3 }{2}-\frac{13\,\sin \left(\Theta_4 \right)\,\sigma_4 }{2}+\frac{21\,\cos \left(\Theta_1 \right)\,\sigma_7 \,\sigma_{10} }{2}-\frac{21\,\cos \left(\Theta_1 \right)\,\sigma_8 \,\sigma_9 }{2}\\
+\cos \left(\Theta_4 \right)\,\sigma_1 -\sin \left(\Theta_4 \right)\,\sigma_2  & -\cos \left(\Theta_1 \right) & \cos \left(\Theta_4 \right)\,\sigma_2 +\sin \left(\Theta_4 \right)\,\sigma_1  & \frac{13\,\cos \left(\Theta_4 \right)\,\sigma_1 }{2}-\frac{13\,\sin \left(\Theta_4 \right)\,\sigma_2 }{2}+\frac{21\,\sigma_7 \,\sin \left(\Theta_1 \right)}{2}+\frac{21\,\sigma_7 \,\sigma_{10} \,\sin \left(\Theta_1 \right)}{2}-\frac{21\,\sin \left(\Theta_1 \right)\,\sigma_8 \,\sigma_9 }{2}\\
+\cos \left(\Theta_4 \right)\,\sigma_6 -\sin \left(\Theta_4 \right)\,\sigma_5  & 0 & \cos \left(\Theta_4 \right)\,\sigma_5 +\sin \left(\Theta_4 \right)\,\sigma_6  & \frac{21\,\sigma_8 }{2}+\frac{13\,\cos \left(\Theta_4 \right)\,\sigma_6 }{2}-\frac{13\,\sin \left(\Theta_4 \right)\,\sigma_5 }{2}+\frac{21\,\sigma_7 \,\sigma_9 }{2}+\frac{21\,\sigma_{10} \,\sigma_8 }{2}+\frac{17}{2}\\
+0 & 0 & 0 & 1
+\end{array}\right)\\
+\mathrm{}\\
+\mathrm{where}\\
+\mathrm{}\\
+\;\;\sigma_1 =\sigma_7 \,\sigma_{10} \,\sin \left(\Theta_1 \right)-\sin \left(\Theta_1 \right)\,\sigma_8 \,\sigma_9 \\
+\mathrm{}\\
+\;\;\sigma_2 =\sigma_7 \,\sin \left(\Theta_1 \right)\,\sigma_9 +\sigma_{10} \,\sin \left(\Theta_1 \right)\,\sigma_8 \\
+\mathrm{}\\
+\;\;\sigma_3 =\cos \left(\Theta_1 \right)\,\sigma_7 \,\sigma_{10} -\cos \left(\Theta_1 \right)\,\sigma_8 \,\sigma_9 \\
+\mathrm{}\\
+\;\;\sigma_4 =\cos \left(\Theta_1 \right)\,\sigma_7 \,\sigma_9 +\cos \left(\Theta_1 \right)\,\sigma_{10} \,\sigma_8 \\
+\mathrm{}\\
+\;\;\sigma_5 =\sigma_8 \,\sigma_9 -\sigma_7 \,\sigma_{10} \\
+\mathrm{}\\
+\;\;\sigma_6 =\sigma_7 \,\sigma_9 +\sigma_{10} \,\sigma_8 \\
+\mathrm{}\\
+\;\;\sigma_7 =\cos \left(\Theta_2 +\frac{\pi }{2}\right)\\
+\mathrm{}\\
+\;\;\sigma_8 =\sin \left(\Theta_2 +\frac{\pi }{2}\right)\\
+\mathrm{}\\
+\;\;\sigma_9 =\sin \left(\Theta_3 +\frac{\pi }{2}\right)\\
+\mathrm{}\\
+\;\;\sigma_{10} =\cos \left(\Theta_3 +\frac{\pi }{2}\right)
+\end{array}$
+```
 
 4. **Creación de matrices de rotación para diferentes posiciones**: Se definen diferentes configuraciones (R1, R2, R3, R4, R5) que representan diferentes posiciones de las articulaciones del robot. Luego, se calculan las matrices de transformación homogénea correspondientes a estas posiciones.
 
