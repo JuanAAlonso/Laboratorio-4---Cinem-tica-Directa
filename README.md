@@ -8,9 +8,10 @@ Por Juan David Alonso, Julián Pinzón y Rodrigo Vera
 
 #### Parametros de DH
 Lo primero para comenzar a dar solución a la practica de laboratorio fue centrarse en el desarrollo del espacio de las articulaciones del Robot, para ello se realizó un diagrama de cinematica directa dando como resultado:
-!(https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/DH.jpg)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/DH.jpg)
 
 Desde donde se desarrollo la siguiente tabla resumen que tambien incluye todos los angulos y desfaces dentre los sistemas coordenados teniendo en cuanta que se midieron en radianes para hacer un mejor manejo en Matlab:
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/ParametrosDH.JPG)
 
 #### Codigo de solución
 
