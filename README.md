@@ -18,7 +18,8 @@ Desde donde se desarrollo la siguiente tabla resumen que tambien incluye todos l
 ##### Matlab
 En base a estos insumos, el primer codigo a desarrollar fue el de matlab donde se calculo las matrices de transformación homogénea para cada una de las articulaciones del robot haciendo uso de la siguiente función desarrollada
 
-'''function MTH = DhtoMat(theta,d,a,alpha)
+```matlab
+function MTH = DhtoMat(theta,d,a,alpha)
 theta = rad2deg(theta);
 alpha = rad2deg(alpha);
 f1 = [cosd(theta) -sind(theta)*cosd(alpha) sind(theta)*sind(alpha) a*cosd(theta)];
@@ -26,7 +27,7 @@ f2 = [sind(theta) cosd(theta)*cosd(alpha) -cosd(theta)*sind(alpha) a*sind(theta)
 f3 = [0 sind(alpha) cosd(alpha) d];
 f4 = [0 0 0 1];
 MTH = [f1;f2;f3;f4];
-end''' 
+end
 
 1. **Inicialización del entorno**: Se eliminan todas las figuras y variables existentes en el entorno de MATLAB.
 
