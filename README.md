@@ -7,11 +7,15 @@ Por Juan David Alonso, Julián Pinzón y Rodrigo Vera
 ### Solución planteada
 
 #### Parametros de DH
+Lo primero para comenzar a dar solución a la practica de laboratorio fue centrarse en el desarrollo del espacio de las articulaciones del Robot, para ello se realizó un diagrama de cinematica directa dando como resultado:
+!(https://github.com/JuanAAlonso/Laboratorio-4---Cinem-tica-Directa/blob/main/Imagenes/DH.jpg)
+
+Desde donde se desarrollo la siguiente tabla resumen que tambien incluye todos los angulos y desfaces dentre los sistemas coordenados teniendo en cuanta que se midieron en radianes para hacer un mejor manejo en Matlab:
 
 #### Codigo de solución
 
 ##### Matlab
-A continuacion se explica paso a paso l codigo de Mathlab utilizado para el laboratorio:
+En base a estos insumos, el primer codigo a desarrollar fue el de matlab donde se calculo las matrices de transformación homogénea para cada una de las articulaciones del robot para de manera ultima obtener
 
 1. **Inicialización del entorno**: Se eliminan todas las figuras y variables existentes en el entorno de MATLAB.
 
