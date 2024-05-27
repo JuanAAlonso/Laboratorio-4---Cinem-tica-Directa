@@ -4,6 +4,8 @@ Por Juan David Alonso, Julián Pinzón y Rodrigo Vera
 
 ## Descripcion General
 
+El objetivo principal de esta practica se puede resumir al rededor de comprender y resolver el problema de la cinematica directa, buscando determinar y controlar la posición y orientación de la herramienta de un manipulador robótico en función de sus variables articulares. Para esto se debe implementar el modelo cinematico directo en un manipulador fisico con dimnensiones y variables finitas como lo es el Phantom X y a través del entorno de Robot Operating System (ROS), matlab y linux calcular los modelos geometricos y tener modelos digitales que permitan la comparación de los resultados reales experimentales con aquellos simulados.
+
 ### Solución planteada
 
 #### Parametros de DH
